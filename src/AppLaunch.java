@@ -3,6 +3,7 @@ import model.Camera;
 import model.Editor;
 import model.Phone;
 
+
 public class AppLaunch {
 
 	public static void main(String[] args) {
