@@ -12,6 +12,10 @@ public class AppLaunch {
 		Phone phone = new Phone();
 		Editor editor = new Editor();
 		
+		android.install(camera);
+		android.install(phone);
+		android.install(editor);
+
 	}
 
 }
