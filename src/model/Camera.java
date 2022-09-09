@@ -8,4 +8,7 @@ public class Camera extends Software {
 		super(appName);
 	}
 	
+	public void shoot() {
+		System.out.println("save a picture.");
+	}
 }

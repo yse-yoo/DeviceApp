@@ -22,6 +22,9 @@ public class AppLaunch {
 			software.launch();
 		}
 		
+		phone.call("0355556666");
+		camera.shoot();
+		editor.save("data/hello.txt", "Hello, Android!");
 	}
 
 }
