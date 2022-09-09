@@ -7,4 +7,8 @@ public class Phone extends Software {
 	public Phone() {
 		super(appName);
 	}
+	
+	public void call(String number) {
+		System.out.println(number);
+	}
 }

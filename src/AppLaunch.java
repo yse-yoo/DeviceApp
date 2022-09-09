@@ -2,6 +2,7 @@ import model.Android;
 import model.Camera;
 import model.Editor;
 import model.Phone;
+import model.Software;
 
 
 public class AppLaunch {
@@ -17,6 +18,10 @@ public class AppLaunch {
 		android.install(phone);
 		android.install(editor);
 
+		for (Software software : android.softwares) {
+			software.launch();
+		}
+		
 	}
 
 }

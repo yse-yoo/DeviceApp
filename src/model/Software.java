@@ -4,6 +4,7 @@ public class Software implements ISoftware {
 	
 	public Software(String name) {
 		this.name = name;
+//		setName(name);
 	}
 
 	private String name;
